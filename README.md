@@ -13,11 +13,13 @@ Curated list of papers on dynamic multi-LLM routing and cascading at inference t
 
 ```bibtex
 @ARTICLE{Moslem-Kelleher-2026-RoutingSurvey,
-  title   = "{Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey}",
-  author  = "Moslem, Yasmin and Kelleher, John D",
-  journal = "Transactions on Machine Learning Research (TMLR)",
-  year    =  2026,
-  url     = "https://openreview.net/forum?id=ypRg1TvQaM"
+  title={Dynamic Model Routing and Cascading for Efficient {LLM} Inference: A Survey},
+  author={Yasmin Moslem and John Kelleher},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026},
+  url={https://openreview.net/forum?id=ypRg1TvQaM},
+  note={Survey Certification}
 }
 ```
 
