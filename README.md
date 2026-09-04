@@ -4,7 +4,7 @@
 
 Curated list of papers on dynamic multi-LLM routing and cascading at inference time, methods, benchmarks, and evaluation metrics.
 
-> Read the full paper: [**Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey**](https://openreview.net/forum?id=ypRg1TvQaM)  
+> Read the full paper: [**Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey**](https://openreview.net/pdf?id=ypRg1TvQaM)  
 > Yasmin Moslem, John D. Kelleher. *Transactions on Machine Learning Research*, 2026.
 
 
