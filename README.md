@@ -134,7 +134,7 @@ Sequential multi-model pipelines that escalate based on response quality.
 
 - **[FrugalGPT](https://openreview.net/forum?id=cSimKw5p6R)** — a fixed, offline-learned model list plus a DistilBERT quality scorer with a jointly-learned escalation threshold. *(TMLR 2024)*
 - **[Cascade Routing](https://openreview.net/forum?id=AAl89VNNy1)** — unifies routing and cascading into one framework that iteratively selects the best model at each step. *(ICML 2025)*
-- **[CRE-Router](http://dx.doi.org/10.48550/arXiv.2606.27457)** — clustering-based pre-generation routing composed with a ModernBERT quality-estimation cascade; blends TPOT and E2EL cost metrics. *(arXiv 2026)*
+- **[CRE-Router](http://dx.doi.org/10.48550/arXiv.2606.27457)** ([code](https://github.com/ymoslem/CRE-Router)) — two-stage routing system: clustering-based pre-generation routing composed with a ModernBERT quality-estimation cascade; blends TPOT and E2EL cost metrics. *(arXiv 2026)*
 - **[SATER](https://aclanthology.org/2025.emnlp-main.531/)** — fine-tunes the pool models directly with shortest-response preference optimization and a built-in rejection mechanism. *(EMNLP 2025)*
 - **[AutoMix](https://openreview.net/forum?id=e6WrwIvgzX)** — few-shot self-verification plus a POMDP router escalates to a larger model without any fine-tuning. *(NeurIPS 2024)*
 - **[Model Cascading for Code](https://arxiv.org/pdf/2405.15842)** — escalation signal comes from executing each model's own generated test cases rather than a learned scorer. *(IJCNN 2025)*
