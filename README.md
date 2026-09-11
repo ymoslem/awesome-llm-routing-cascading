@@ -141,6 +141,7 @@ Sequential multi-model pipelines that escalate based on response quality.
 - **[LLM-Blender](https://aclanthology.org/2023.acl-long.792/)** — ensembles multiple LLM outputs via pairwise ranking (PairRanker) and generative fusion (GenFuser). *(ACL 2023)*
 - **[R2R](https://proceedings.neurips.cc/paper_files/paper/2025/hash/b39cef2ef90591cffdc9c674cd55bebe-Abstract-Conference.html)** — token-level routing between a small and large model, escalating only where their reasoning paths diverge. *(NeurIPS 2025)*
 - **[Translate Smart, Not Hard](https://aclanthology.org/2025.emnlp-main.1358/)** — quality-aware deferral rules route between small and large translation models. *(EMNLP 2025)*
+- **[Strong-Weak Collaboration for Repo-level Code Generation](https://aclanthology.org/2025.emnlp-main.1043/)** ([code](https://github.com/shubhamrgandhi/codegen-strong-weak-collab)) — compares 12 strong-weak collaboration strategies (static context, pipeline splits, and dynamic routing/cascades) for repository-level issue resolution on cost-performance curves; the best strategy matches the strong model at ~60% of its cost. *(EMNLP 2025)*
 
 ## Multimodal Model Routing
 
