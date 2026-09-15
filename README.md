@@ -65,7 +65,7 @@ A method can fill more than one cell per axis; that's a signal it composes multi
 
 Pre-generation methods that route based on estimated query complexity.
 
-- **[BEST-Route](https://openreview.net/forum?id=tFBIbCVXkG)** — DeBERTa-v3-small multi-head router selects both the model and a best-of-*n* sampling budget under a user-set cost/accuracy threshold. *(ICML 2025)*
+- **[BEST-Route](https://openreview.net/forum?id=tFBIbCVXkG)** ([code](https://github.com/microsoft/best-route-llm)) — DeBERTa-v3-small multi-head router selects both the model and a best-of-*n* sampling budget under a user-set cost/accuracy threshold. *(ICML 2025)*
 - **[HAPS](http://dx.doi.org/10.48550/arXiv.2601.05903)** — jointly trained hierarchical routers select an LLM and generate input-conditioned LoRA adapter weights for it. *(arXiv 2026)*
 - **[Combining the Best of Both Worlds](https://aclanthology.org/2025.findings-acl.266/)** — source-side routing between an NMT system and an LLM based on source-sentence complexity. *(ACL Findings 2025)*
 - **[RouteLMT](https://openreview.net/forum?id=0SMriQrEjL)** — in-model router probing a small translator's prompt-token representations via LoRA, using the marginal gain over the small model as the routing signal. *(ACL Industry 2026)*
@@ -86,7 +86,7 @@ Pre-generation methods trained on human or synthetic preference data.
 - **[Meta-Router](https://openreview.net/forum?id=r0BFucF2dH)** — treats the choice between scarce gold-standard labels and biased preference comparisons as a treatment-assignment problem. *(ICLR 2026)*
 - **[Causal LLM Routing](https://openreview.net/forum?id=iZC5xoQQkX)** — learns from observational (single-model-per-query) data via a doubly-robust causal estimator and end-to-end regret minimization. *(NeurIPS 2025)*
 - **[Arch-Router](http://dx.doi.org/10.48550/arXiv.2506.16655)** — routes via user-defined domain-action policies given as input context to a 1.5B router LLM, updatable without retraining. *(arXiv 2025)*
-- **[Hybrid LLM](https://openreview.net/forum?id=02f3mUtqnM)** — LLM-based classifier trained on synthetic preference data for cost-efficient query routing. *(ICLR 2024)*
+- **[Hybrid LLM](https://openreview.net/forum?id=02f3mUtqnM)** ([code](https://github.com/microsoft/best-route-llm)) — LLM-based classifier trained on synthetic preference data for cost-efficient query routing. *(ICLR 2024)*
 - **[Prompt-to-Leaderboard (P2L)](https://openreview.net/forum?id=7VPRrzFEN8)** — generates prompt-specific Bradley-Terry coefficients for personalized, task-specific model ranking. *(ICML 2025)*
 - **[GMTRouter](http://dx.doi.org/10.48550/arXiv.2511.08590)** — heterogeneous graph over multi-turn user-LLM interaction histories for inductive, per-user personalization. *(arXiv 2025)*
 - **[Eagle](https://mlforsystems.org/assets/papers/neurips2024/paper38.pdf)** — training-free router combining global and local ELO rankings from historical pairwise comparisons. *(NeurIPS ML for Systems Workshop 2024)*
