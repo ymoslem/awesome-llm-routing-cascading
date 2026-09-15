@@ -169,4 +169,4 @@ Routing among a pool of adapters sharing one base model — a related but distin
 
 ## License
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — matching the companion survey's license.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — matching the companion survey's license. Reuse is permitted with attribution; please cite the [paper](https://openreview.net/pdf?id=ypRg1TvQaM) (see [Citation](#citation) above).
