@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this list, please cite the survey below."
+title: "Awesome LLM Routing & Cascading"
+authors:
+  - given-names: Yasmin
+    family-names: Moslem
+  - given-names: John
+    family-names: Kelleher
+license: CC-BY-4.0
+repository-code: "https://github.com/ymoslem/awesome-llm-routing-cascading"
+preferred-citation:
+  type: article
+  title: "Dynamic Model Routing and Cascading for Efficient LLM Inference: A Survey"
+  authors:
+    - given-names: Yasmin
+      family-names: Moslem
+    - given-names: John
+      family-names: Kelleher
+  journal: "Transactions on Machine Learning Research"
+  issn: "2835-8856"
+  year: 2026
+  url: "https://openreview.net/forum?id=ypRg1TvQaM"
+  notes: "Survey Certification"
